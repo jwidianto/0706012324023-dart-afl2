@@ -1,16 +1,34 @@
 # my_portofolio
 
-A new Flutter project.
+Aplikasi ini adalah aplikasi portofolio berbasis Flutter yang dirancang untuk menampilkan informasi pribadi secara interaktif dan menarik. Aplikasi ini memiliki tiga halaman utama:
 
-## Getting Started
+    - Home Screen – Menampilkan foto profil, nama, dan kode QR.
+    - About Screen – Menampilkan informasi singkat tentang pengembang.
+    - Contact Screen – Menampilkan informasi kontak pribadi.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+/my_portfolio
+│── /lib
+│   │── main.dart               # Entry point aplikasi
+│   │── /screens
+│   │   │── home_screen.dart    # Halaman utama
+│   │   │── about_screen.dart   # Halaman tentang pengembang
+│   │   │── contact_screen.dart # Halaman kontak
+│── /assets
+│   │── profile.jpg             # Foto profil
+│── pubspec.yaml                # Konfigurasi dependensi dan aset
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Penjelasan Kode
+    Main.dart (Entry Point)
+        - Menginisialisasi aplikasi dan mengatur navigasi antar halaman.
+    Home Screen
+        - Menampilkan foto profil, nama, dan kode QR.
+        - Menyediakan tombol navigasi ke halaman About dan Contact.
+    About Screen
+        - Menampilkan informasi singkat tentang pengembang.
+    Contact Screen
+        - Menampilkan detail pribadi seperti nama, email, tanggal lahir, dan alamat.
+
+full zip project ada di Gdrive - https://drive.google.com/file/d/1YD-9taOgU8PS8lGOZTQvhZv7grnTRMwT/view?usp=sharing
